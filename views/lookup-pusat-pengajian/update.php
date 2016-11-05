@@ -5,9 +5,9 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\LookupPusatPengajian */
 
-$this->title = 'Update Lookup Pusat Pengajian: ' . $model->id;
-$this->params['breadcrumbs'][] = ['label' => 'Lookup Pusat Pengajians', 'url' => ['index']];
-$this->params['breadcrumbs'][] = ['label' => $model->id, 'url' => ['view', 'id' => $model->id]];
+$this->title = 'Kemaskini Pusat Pengajian: ' . $model->pusat_pengajian;
+$this->params['breadcrumbs'][] = ['label' => 'Senarai Pusat Pengajian', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => $model->pusat_pengajian, 'url' => ['view', 'id' => $model->id]];
 $this->params['breadcrumbs'][] = 'Update';
 ?>
 <div class="lookup-pusat-pengajian-update">

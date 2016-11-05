@@ -107,8 +107,16 @@ AppAsset::register($this);
 
                         echo Menu::widget([
                             'items' => [
-                                ['label' => '<i class="icon-home"></i><span class="title">Dashboard</span>', 'url' => ['site/index']],
+                                ['label' => '<i class="icon-home"></i><span class="title">Utama</span>', 'url' => ['site/index']],
+                                ['label' => '',
+                                    'options'=>['class'=>'nav-item'],
+                                    'template' => '<a href="javascript:;" class="nav-link nav-toggle"><i class="icon-settings"></i><span class="title">Tetapan</span><span class="arrow"></span></a>',
+                                    'items' => [
+                                        ['label' => 'Pusat Pengajian', 'url' => ['/lookup-pusat-pengajian/index']],
+                                        ['label' => 'Pendapatan', 'url' => ['/lookup-pendapatan/index']],
 
+                                    ]
+                                ],
                                 ['label' => '<h3 class="uppercase">HUMAN RESOURCES</h3>',
                                     'options'=>['class'=>'heading'],
                                 ],

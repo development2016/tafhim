@@ -6,8 +6,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\LookupPusatPengajian */
 
-$this->title = 'Create Lookup Pusat Pengajian';
-$this->params['breadcrumbs'][] = ['label' => 'Lookup Pusat Pengajians', 'url' => ['index']];
+$this->title = 'Jana Pusat Pengajian';
+$this->params['breadcrumbs'][] = ['label' => 'Senarai Pusat Pengajian', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="lookup-pusat-pengajian-create">

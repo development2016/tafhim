@@ -6,8 +6,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\MaklumatPelajarPenjaga */
 
-$this->title = 'Create Maklumat Pelajar Penjaga';
-$this->params['breadcrumbs'][] = ['label' => 'Maklumat Pelajar Penjagas', 'url' => ['index']];
+$this->title = 'Jana Maklumat Pelajar';
+$this->params['breadcrumbs'][] = ['label' => 'Senarai Maklumat Pelajar', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="maklumat-pelajar-penjaga-create">

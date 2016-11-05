@@ -74,16 +74,9 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'gaji_ibu')->textInput() ?>
 
-    <?= $form->field($model, 'date_create')->textInput() ?>
-
-    <?= $form->field($model, 'date_update')->textInput() ?>
-
-    <?= $form->field($model, 'enter_by')->textInput() ?>
-
-    <?= $form->field($model, 'update_by')->textInput() ?>
 
     <div class="form-group">
-        <?= Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
+        <?= Html::submitButton($model->isNewRecord ? 'Jana' : 'Kemaskini', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
     </div>
 
     <?php ActiveForm::end(); ?>

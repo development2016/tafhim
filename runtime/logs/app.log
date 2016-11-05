@@ -3203,3 +3203,93 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1478362747.518
     'REQUEST_TIME' => 1478362747
 ]
+2016-11-06 00:52:02 [::1][1][7cahlr77km8fhbq6l3qan0t8n5][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'session_regenerate_id(): Session object destruction failed' in C:\xampp\htdocs\tafhimdev\vendor\yiisoft\yii2\web\Session.php:282
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'session_regener...', 'C:\\xampp\\htdocs...', 282, Array)
+#1 C:\xampp\htdocs\tafhimdev\vendor\yiisoft\yii2\web\Session.php(282): session_regenerate_id(true)
+#2 C:\xampp\htdocs\tafhimdev\vendor\yiisoft\yii2\web\User.php(626): yii\web\Session->regenerateID(true)
+#3 C:\xampp\htdocs\tafhimdev\vendor\yiisoft\yii2\web\User.php(248): yii\web\User->switchIdentity(Object(app\models\User), 2592000)
+#4 C:\xampp\htdocs\tafhimdev\models\LoginForm.php(63): yii\web\User->login(Object(app\models\User), 2592000)
+#5 C:\xampp\htdocs\tafhimdev\controllers\SiteController.php(84): app\models\LoginForm->login()
+#6 [internal function]: app\controllers\SiteController->actionLogin()
+#7 C:\xampp\htdocs\tafhimdev\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\tafhimdev\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\tafhimdev\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('login', Array)
+#10 C:\xampp\htdocs\tafhimdev\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('site/login', Array)
+#11 C:\xampp\htdocs\tafhimdev\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\tafhimdev\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2016-11-06 00:51:59 [::1][1][7cahlr77km8fhbq6l3qan0t8n5][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf' => 'R2YxSTZYSkklVWU6DhA6MShfbnFeaiU5ISRcLkIhLxwfClgFBSovBQ=='
+    'LoginForm' => [
+        'username' => 'admin'
+        'password' => 'admin123'
+    ]
+]
+
+$_COOKIE = [
+    'ext-mainnav_east' => 'o:collapsed=b%3A0^weight=n%3A-20'
+    'ext-kitchensink-viewport' => 'o:hasTreeNav=b%3A1'
+    'ext-mainnav_west' => 'o:width=n%3A250^columns=a%3Ao%253Aid%253Ds%25253Ah1^weight=n%3A-10'
+    'PHPSESSID' => '7cahlr77km8fhbq6l3qan0t8n5'
+    '_csrf' => '4ad30ac6eb60931e1805e4abde2fc1b3a1964803844bc174688742f0d89ee06aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"b3Ts8Hpxo9_8h2opfBmgtyeUXliL3reL\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/tafhimdev/web/index.php'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '129'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/tafhimdev/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'ext-mainnav.east=o%3Acollapsed%3Db%253A0%5Eweight%3Dn%253A-20; ext-kitchensink-viewport=o%3AhasTreeNav%3Db%253A1; ext-mainnav.west=o%3Awidth%3Dn%253A250%5Ecolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%5Eweight%3Dn%253A-10; PHPSESSID=7cahlr77km8fhbq6l3qan0t8n5; _csrf=4ad30ac6eb60931e1805e4abde2fc1b3a1964803844bc174688742f0d89ee06aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22b3Ts8Hpxo9_8h2opfBmgtyeUXliL3reL%22%3B%7D'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\fuad\\bin\\Sencha\\Cmd;C:\\Users\\fuad\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\fuad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fuad\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/tafhimdev/web/index.php'
+    'REMOTE_PORT' => '62011'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/tafhimdev/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/tafhimdev/web/index.php'
+    'PHP_SELF' => '/tafhimdev/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478364719.508
+    'REQUEST_TIME' => 1478364719
+]

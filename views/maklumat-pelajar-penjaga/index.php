@@ -7,16 +7,16 @@ use yii\widgets\Pjax;
 /* @var $searchModel app\models\MaklumatPelajarPenjagaSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Maklumat Pelajar Penjagas';
+$this->title = 'Senarai Maklumat Pelajar';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="maklumat-pelajar-penjaga-index">
 
     <h1><?= Html::encode($this->title) ?></h1>
-    <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
+    <?php  echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
-        <?= Html::a('Create Maklumat Pelajar Penjaga', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Jana', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 <?php Pjax::begin(); ?>    <?= GridView::widget([
         'dataProvider' => $dataProvider,
@@ -26,9 +26,9 @@ $this->params['breadcrumbs'][] = $this->title;
             'nama_pelajar',
             'jantina',
             'tarikh_lahir',
-            'tempat_lahir:ntext',
-            // 'no_surat_beranak',
-            // 'no_mykid',
+
+            'no_surat_beranak',
+            'no_mykid',
             // 'pusat_pengajian_id',
             // 'sesi_pengajian',
             // 'tarikh_masuk',
