@@ -3293,3 +3293,131 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1478364719.508
     'REQUEST_TIME' => 1478364719
 ]
+2016-11-06 01:20:24 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ''links'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'' in C:\xampp\htdocs\tafhimdev\views\layouts\main.php:194
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-06 01:20:23 [::1][-][-][info][application] $_GET = [
+    'r' => 'maklumat-pelajar-penjaga/index'
+]
+
+$_COOKIE = [
+    'ext-mainnav_east' => 'o:collapsed=b%3A0^weight=n%3A-20'
+    'ext-kitchensink-viewport' => 'o:hasTreeNav=b%3A1'
+    'ext-mainnav_west' => 'o:width=n%3A250^columns=a%3Ao%253Aid%253Ds%25253Ah1^weight=n%3A-10'
+    '_csrf' => '4ad30ac6eb60931e1805e4abde2fc1b3a1964803844bc174688742f0d89ee06aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"b3Ts8Hpxo9_8h2opfBmgtyeUXliL3reL\";}'
+    'PHPSESSID' => 't4ro3rd30v0kl6iehac9httke4'
+    '_identity' => '0328e8762442c1cf9d5eca0384789c2e61c5f2152769021b5c6864dd5191f2c1a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"XxoFumqMguIL9fb1Exu6mFC432hGsoEl\",2592000]\";}'
+    'sidebar_closed' => '0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/tafhimdev/web/index.php?r=lookup-pendapatan%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'ext-mainnav.east=o%3Acollapsed%3Db%253A0%5Eweight%3Dn%253A-20; ext-kitchensink-viewport=o%3AhasTreeNav%3Db%253A1; ext-mainnav.west=o%3Awidth%3Dn%253A250%5Ecolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%5Eweight%3Dn%253A-10; _csrf=4ad30ac6eb60931e1805e4abde2fc1b3a1964803844bc174688742f0d89ee06aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22b3Ts8Hpxo9_8h2opfBmgtyeUXliL3reL%22%3B%7D; PHPSESSID=t4ro3rd30v0kl6iehac9httke4; _identity=0328e8762442c1cf9d5eca0384789c2e61c5f2152769021b5c6864dd5191f2c1a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22XxoFumqMguIL9fb1Exu6mFC432hGsoEl%22%2C2592000%5D%22%3B%7D; sidebar_closed=0'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\fuad\\bin\\Sencha\\Cmd;C:\\Users\\fuad\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\fuad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fuad\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/tafhimdev/web/index.php'
+    'REMOTE_PORT' => '63033'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=maklumat-pelajar-penjaga%2Findex'
+    'REQUEST_URI' => '/tafhimdev/web/index.php?r=maklumat-pelajar-penjaga%2Findex'
+    'SCRIPT_NAME' => '/tafhimdev/web/index.php'
+    'PHP_SELF' => '/tafhimdev/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478366423.831
+    'REQUEST_TIME' => 1478366423
+]
+2016-11-06 01:21:37 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ''links'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'' in C:\xampp\htdocs\tafhimdev\views\layouts\main.php:194
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-06 01:21:37 [::1][-][-][info][application] $_GET = [
+    'r' => 'maklumat-pelajar-penjaga/index'
+]
+
+$_COOKIE = [
+    'ext-mainnav_east' => 'o:collapsed=b%3A0^weight=n%3A-20'
+    'ext-kitchensink-viewport' => 'o:hasTreeNav=b%3A1'
+    'ext-mainnav_west' => 'o:width=n%3A250^columns=a%3Ao%253Aid%253Ds%25253Ah1^weight=n%3A-10'
+    '_csrf' => '4ad30ac6eb60931e1805e4abde2fc1b3a1964803844bc174688742f0d89ee06aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"b3Ts8Hpxo9_8h2opfBmgtyeUXliL3reL\";}'
+    'PHPSESSID' => 't4ro3rd30v0kl6iehac9httke4'
+    'sidebar_closed' => '0'
+    '_identity' => '0328e8762442c1cf9d5eca0384789c2e61c5f2152769021b5c6864dd5191f2c1a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"XxoFumqMguIL9fb1Exu6mFC432hGsoEl\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/tafhimdev/web/index.php?r=lookup-pendapatan%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'ext-mainnav.east=o%3Acollapsed%3Db%253A0%5Eweight%3Dn%253A-20; ext-kitchensink-viewport=o%3AhasTreeNav%3Db%253A1; ext-mainnav.west=o%3Awidth%3Dn%253A250%5Ecolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%5Eweight%3Dn%253A-10; _csrf=4ad30ac6eb60931e1805e4abde2fc1b3a1964803844bc174688742f0d89ee06aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22b3Ts8Hpxo9_8h2opfBmgtyeUXliL3reL%22%3B%7D; PHPSESSID=t4ro3rd30v0kl6iehac9httke4; sidebar_closed=0; _identity=0328e8762442c1cf9d5eca0384789c2e61c5f2152769021b5c6864dd5191f2c1a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22XxoFumqMguIL9fb1Exu6mFC432hGsoEl%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\fuad\\bin\\Sencha\\Cmd;C:\\Users\\fuad\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\fuad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fuad\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/tafhimdev/web/index.php'
+    'REMOTE_PORT' => '63099'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=maklumat-pelajar-penjaga%2Findex'
+    'REQUEST_URI' => '/tafhimdev/web/index.php?r=maklumat-pelajar-penjaga%2Findex'
+    'SCRIPT_NAME' => '/tafhimdev/web/index.php'
+    'PHP_SELF' => '/tafhimdev/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478366497.486
+    'REQUEST_TIME' => 1478366497
+]

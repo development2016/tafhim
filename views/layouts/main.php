@@ -190,6 +190,7 @@ AppAsset::register($this);
                     <div class="page-bar">
               
                         <?= Breadcrumbs::widget([
+                                'homeLink' => ['label' => 'Utama','url' => Yii::$app->homeUrl,],
                                 'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
                                 'itemTemplate' => '<li>{link}<i class="fa fa-circle"></i></li>',
                                 'options' => [
